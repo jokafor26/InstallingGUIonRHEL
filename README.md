@@ -26,7 +26,6 @@ After completion I configured, I used systemctl start and xrdp enable commands t
 
 ![Image](https://github.com/user-attachments/assets/03d594c3-a790-4484-8b00-e450ec08531a)
 
-
 With the firewall operational I have to configure the remote desktop protocol rule by allowing the connection using sudo firewall-cmd --permanent --add-port=3389/tcp and sudo firewall-cmd –reload commands. 
 
 ![Image](https://github.com/user-attachments/assets/9efcb4d2-55aa-4064-97bb-2f80b9e9fb64)
@@ -53,7 +52,6 @@ Showing a restablished RDP session that included firefox connection through weba
 
 ![Image](https://github.com/user-attachments/assets/698bc0cc-de04-4d2d-81b0-1f48379892ec)
 
-
 I restarted my instances and switched the instance type back to t2.mirco through the AWS console.
 
 ![Image](https://github.com/user-attachments/assets/6f5e0bdc-0292-42f6-b4ab-39b6fbd130a2)
@@ -61,5 +59,3 @@ I restarted my instances and switched the instance type back to t2.mirco through
 I disabled XRDP start at bootup and set default run level using systemctl set-default runlevel command.
  
 ![Image](https://github.com/user-attachments/assets/3f51cff8-59e8-4ad8-984e-a2ae3f8e32c7)
-
-
