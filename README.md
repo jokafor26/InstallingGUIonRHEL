@@ -44,16 +44,18 @@ I my desktop I used my RDP client to connect to my instance then oppened firefox
 
 I was able to log in which indicated RDP is working to my webadmin console.
 
+<img width="480" height="374" alt="image" src="https://github.com/user-attachments/assets/9e77bd03-eff5-419b-bb42-ea8f53901a93" />
 
+<img width="523" height="419" alt="image" src="https://github.com/user-attachments/assets/ef8e4903-34a1-4066-8958-e70ebfdb5d2d" />
 
 Showing a restablished RDP session that included firefox connection through webadmin account.
 
-![Image](https://github.com/user-attachments/assets/698bc0cc-de04-4d2d-81b0-1f48379892ec)
+<img width="588" height="473" alt="image" src="https://github.com/user-attachments/assets/441216be-0765-41ee-b223-6acb78b96105" />
 
 I restarted my instances and switched the instance type back to t2.mirco through the AWS console.
 
-![Image](https://github.com/user-attachments/assets/6f5e0bdc-0292-42f6-b4ab-39b6fbd130a2)
+<img width="634" height="200" alt="image" src="https://github.com/user-attachments/assets/b1325134-f367-4c2d-ade1-9d4e9f43266d" />
 
 I disabled XRDP start at bootup and set default run level using systemctl set-default runlevel command.
  
-![Image](https://github.com/user-attachments/assets/3f51cff8-59e8-4ad8-984e-a2ae3f8e32c7)
+<img width="851" height="407" alt="image" src="https://github.com/user-attachments/assets/09a099c0-2cde-41c4-a92b-8cc2ae134d19" />
